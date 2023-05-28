@@ -1,0 +1,189 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.flex-container {
+  height: 92.5vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.flex-child{
+    /* margin: 0 5px; */
+}
+.second-flex-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-picture {
+    position: relative;
+  margin-right: 0px;
+}
+.top-image{
+    position: absolute;
+    top: 89px;
+    left: 587px;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px 50px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.Instagram-header-name {
+  font-size: 60px;
+  font-family: "Billabong", sans-serif;
+  font-weight: 200;
+  margin: 20px 0;
+}
+
+input {
+  min-width: 280px;
+  min-height: 38px;
+  margin-bottom: 10px;
+  padding: 9px 0 7px 8px;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: #FAFAFA;
+  border-radius: 3px;
+  outline-color: #1876f286;
+}
+
+.btn-blue{
+    background-color: #4CB5F9;
+    border: none;
+    border-radius: 8px;
+    padding: 7px 118px;
+    color: white;
+    font-weight: 750;
+    /* margin-bottom: 15px; */
+}
+
+.or{
+    margin: 30px 0;
+    border-top: 1px solid rgb(219,219,219);
+    width: 250px;
+    text-align: center;
+}
+
+.or-child{
+    padding: 10px;
+    background-color: white;
+    position: relative;
+    top: -10px;
+    align-items: center;
+}
+
+.login-facebook{
+    color: #385185;
+    text-decoration: none;
+    font-weight:600;
+    margin-bottom: 17px;
+    font-size: 17px;
+}
+
+.forgot-password{
+        color: #385185;
+        font-weight: lighter;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.seperate-box{
+      border: 1px solid rgb(219, 219, 219);
+      text-align: center;
+      margin-top: 10px;
+      padding: 22px 0;
+}
+
+.account{
+    font-weight: 100;
+}
+
+.sign-up{
+    color:#4CB5F9;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.playstore{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.get-app{
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 400;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+
+.gb-logo{
+    height: 40px;
+    margin-right: 8px!important;
+}
+
+.microsoft-logo{
+    height: 40px;
+}
+
+footer{
+    max-height: 1000px;
+    margin-top: -95px;
+}
+
+.first-ul{
+    max-width: 800px;
+    margin-left: 10px;
+    margin: 0 60px 0 468px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    list-style: none;
+}
+
+.first-list .first-ul li{
+    /* padding-right: 15px; */
+        color:#8a8d91;
+        font-size: 12px;
+}
+
+.first-list .first-ul li a{
+    text-decoration: none;
+        color:#8a8d91;
+        font-size: 12px;
+}
+
+.last-row{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.language{
+    border: none;
+    font-size: 12px;
+    color:#8a8d91;
+    margin-right: 20px;
+
+}
+
+.small{
+        color:#8a8d91;
+
+}
